@@ -41,12 +41,12 @@ amount_0 = order[menu_list[0]]
 total_0 = price_0*amount_0
 # 계산 전 메뉴확인
 print("주문하신 내용은 아래와 같습니다")
-print(f"{menu_list[0]} 가격 : {amount_0} :  수량 {price_0} : 총합 {total_0}")
+print(f"{menu_list[0]} 가격 : {price_0} :  수량 {amount_0} : 총합 {total_0}")
 price_1 = menu[menu_list[1]] # 4000
 amount_1 = order[menu_list[1]]
 total_1 = price_1*amount_1
 # 계산 전 메뉴확인
-print(f"{menu_list[1]} 가격 : {amount_1} :  수량 {price_1} : 총합 {total_1}")
+print(f"{menu_list[1]} 가격 : {price_1} :  수량 {amount_1} : 총합 {total_1}")
 # 전체 금액
 print("전체 금액 : ", total_0+total_1)
 pass
