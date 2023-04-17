@@ -11,7 +11,7 @@ for i in range(223):
   # db 연결
   conn = mysql.connector.connect(
     host="3.35.138.95",
-    port="54199",
+    port="53686",
     user="myname",
     password="1234",
     database="mydb"
